@@ -76,7 +76,7 @@ if (choice === "5"){
             const currentUser = await noblox.setCookie(singlecookie)
             await new Promise(resolve => setTimeout(resolve, time));
             console.log()
-            noblox.uploadItem(`${Name}`, 13, fs.createReadStream("./decal.png")) ///// name your finished decal, decal.png
+            noblox.uploadItem(`${Name}`, 13, fs.createReadStream("./ToUpload.png")) ///// name your finished decal, decal.png
         }
         Schedule()
 }
